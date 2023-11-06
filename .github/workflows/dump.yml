@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  DUMP_URL: "https://fairphone-android-builds.ams3.digitaloceanspaces.com/FP3/A13/FP3-6.A.020.0-gms-88126537-user-fastbootimage.zip" # Direct url to a recovery zip
+  DUMP_URL: "http://update.dbankcdn.com/download/data/pub_13/HWHOTA_hota_900_9/a7/v3/vXjO6pLGSlicQO0V-E6CBQ/full/update_full_base.zip" # Direct url to a recovery zip
 
 jobs:
   dump:
