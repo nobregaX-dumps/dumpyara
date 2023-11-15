@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  DUMP_URL: "https://pixeldrain.com/api/file/Ee1cokRR?download" # Direct url to a recovery zip
+  DUMP_URL: "https://bigota.d.miui.com/V14.0.4.0.TLJMIXM/miui_INGRESGlobal_V14.0.4.0.TLJMIXM_b9584923e5_13.0.zip" # Direct url to a recovery zip
 
 jobs:
   dump:
