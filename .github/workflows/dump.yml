@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  DUMP_URL: "https://bigota.d.miui.com/V14.0.13.0.TNRCNXM/miui_GARNET_V14.0.13.0.TNRCNXM_c3b0b88317_13.0.zip" # Direct url to a recovery zip
+  DUMP_URL: "https://hugeota.d.miui.com/OS1.0.23.11.19.DEV/miui_MONDRIAN_OS1.0.23.11.19.DEV_8ad81c67a2_14.0.zip?t=1700570071&s=7ea9a57217e931519d4906500e702c0c" # Direct url to a recovery zip
 
 jobs:
   dump:
