@@ -11,6 +11,7 @@ allowed_user_ids = [
     172222663,  # GiovanniRN5
     690187343,  # lostark13
     419006851,  # dereference
+    1333498126,  # dreadnoughtOO7
 ]
 
 # Read the Telegram token from the file
