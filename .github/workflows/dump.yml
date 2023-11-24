@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  DUMP_URL: "https://mirrors.lolinet.com/firmware/motorola/kyoto/official/RETAIL/KYOTO_RETAIL_12_S2RKS32.92-11-30-17_subsidy-DEFAULT_regulatory-DEFAULT_CFC.xml.zip" # Direct url to a recovery zip
+  DUMP_URL: "https://bigota.d.miui.com/V12.0.1.0.PDICNXM/miui_HM6Pro_V12.0.1.0.PDICNXM_81d8bc0ad2_9.0.zip" # Direct url to a recovery zip
 
 jobs:
   dump:
