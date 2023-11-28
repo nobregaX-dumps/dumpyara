@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  DUMP_URL: "https://bigota.d.miui.com/V11.0.21.0.QDLMIXM/miui_DAISYGlobal_V11.0.21.0.QDLMIXM_c6721a4b58_10.0.zip" # Direct url to a recovery zip
+  DUMP_URL: "https://drive.google.com/u/0/uc?id=1msVE2v0rS3cQiWSIiLE9tWyyfohwdh7j&export=download" # Direct url to a recovery zip
 
 jobs:
   dump:
@@ -29,10 +29,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Create .githubtoken file
-        run: echo "${{ secrets.GIT_TOKEN }}" > .githubtoken
+        run: echo "${{ secrets.GIT_OAUTH_TOKEN }}" > .githubtoken
 
       - name: Create .tgtoken file
-        run: echo "${{ secrets.TELEGRAM_TOKEN }}" > .tgtoken
+        run: echo "${{ secrets.TG_TOKEN }}" > .tgtoken
 
       - name: Set up environment
         run: bash setup.sh
