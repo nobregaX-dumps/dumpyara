@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  DUMP_URL: "https://drive.google.com/u/0/uc?id=1WDazi0gk3fFdn44GyufP8WssTKQ65158&export=download" # Direct url to a recovery zip
+  DUMP_URL: "https://mirrors.lolinet.com/firmware/motorola/dubai/official/RETAIL/DUBAI_RETAIL_13_T1RD33.116-33-13_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml.zip" # Direct url to a recovery zip
 
 jobs:
   dump:
